@@ -1,4 +1,4 @@
-catapult
+Catapult
 ========
 
 A simple Facade for Illuminate Database capsule. To use first pass a config into the static make method.
