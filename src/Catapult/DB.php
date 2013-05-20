@@ -9,7 +9,7 @@ class DB
 
     public static function make($config)
     {
-        self::$conn = new Illuminate\Database\Capsule($config);
+        self::$conn = new \Illuminate\Database\Capsule($config);
         self::$conn->bootEloquent();
     }
 
