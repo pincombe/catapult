@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Catapult": "lib/"
+            "Catapult": "src/"
         }
     },
     "minimum-stability": "dev"
