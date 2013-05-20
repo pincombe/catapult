@@ -26,8 +26,8 @@ Once a configured you can use any query builder as normal
 
 ### Eloquent Models
 
-You can extend the `Illuminate\Database\Eloquent\Model` class and use the Models as you normally would.  When `Capsule\Database\Connection::make` is called it also sets up Eloquent for you.
+You can extend the `Illuminate\Database\Eloquent\Model` class and use the Models as you normally would.
 
 ### Schema Builder
 
-Capsule provides a nice `Capsule\Schema` class, which acts exactly like the `Schema` Facade in Laraval.
+Catapult provides a `Catapult\Schema` class, which acts exactly like the `Schema` Facade in Laraval.
