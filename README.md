@@ -3,8 +3,7 @@ catapult
 
 A simple Facade for Illuminate Database capsule. To use first pass a config into the static make method.
 
-
-Catapult\DB::make(array(
+`Catapult\DB::make(array(
   'fetch' => PDO::FETCH_CLASS,
 	'default' => 'mysql',
 	'connections' => array(
@@ -19,12 +18,11 @@ Catapult\DB::make(array(
 			'prefix'    => '',
 		),
 	),
-));
-
+));`
 
 Once a configured you can use any query builder as normal
 
-Catapult\DB::table('foo')->select('*')->get();
+`Catapult\DB::table('foo')->select('*')->get();`
 
 ### Eloquent Models
 
