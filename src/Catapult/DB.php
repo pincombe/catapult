@@ -19,4 +19,9 @@ class DB
         return call_user_func_array(array(self::$conn, $name), array_values($args));
     }
 
+    public function __callStatic($name, $args)
+    {
+        return call_user_func_array(array(self::$conn, $name), array_values($args));
+    }
+
 }
